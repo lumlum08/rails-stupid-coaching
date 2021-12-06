@@ -1,0 +1,14 @@
+<h1> Stupid Coaching</h1>
+
+<div class= "border">
+<h3> <%= params[:question] %></h3>
+<p> - <em>You</em></p>
+</div>
+
+
+<div class= "border-coach">
+<h3> <%=@reponse%> </h3>
+<p> - <em>Your Coach</em></p>
+</div>
+
+<%= link_to "Ask another question", ask_path %>
